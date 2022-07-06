@@ -1,0 +1,23 @@
+  // 차트 현황표시
+  google.charts.load("current", {packages:["corechart"]});
+  google.charts.setOnLoadCallback(drawChart);
+  function drawChart() {
+    var data = google.visualization.arrayToDataTable([
+      ['일상', 13], ['루머', 10], ['공식', 10],
+      ['포토', 12]
+    ]);
+
+    var options = {
+      legend: 'none',
+      pieSliceText: 'label',
+      slices: { 1: {offset: 0},
+                2: {offset: 0},
+                3: {offset: 0},
+                4: {offset: 0},
+      },
+      colors: ['#90caf9', '#80cbc4', '#e6ee9c', '#ffab91', '#f48fb1'],
+    };
+
+    var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+    chart.draw(data, options);
+  }

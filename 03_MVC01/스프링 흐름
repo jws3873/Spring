@@ -1,0 +1,42 @@
+# 스프링 MVC 흐름(순서)
+
+1. web.xml
+	- 클라이언트로부터 요청이 들어오면 해당 요청을 가장 먼저 처리하는 곳,
+	- 필터가 있다면 가장 먼저 반응을 하여 필터 작업을 진행하게 됨 ==> 대체적으로 한글 인코딩 처리
+
+2. /WEB-INF/spring/root-context.xml
+	- /WEB-INF/spring/root-context.xml 로 이동을 함.
+	- 모든 서블릿에서 사용할 자원을 설정하는 공간.
+	- 대체적으로 DB연동을 이곳에서 진행하게 됨.
+
+
+3. DispatcherServlet
+	- 해당 요청에 대해서 DispatcherServlet 이 우선적으로 해당 요청을 가로챔.
+	- <init-param> 부분에 있는 servlet.context.xml 파일로 넘어감.1
+	
+
+4. /WEB-INF/spring/appServlet/servlet-context.xml
+	- servlet.context.xml 파일에서는 브라우저의 요청으로 그요청을 처리할
+	  controller로 이어주는 역할을 함.
+	- 즉, servlet.context.xml 파일에서 HandlerMapping(url-mapping) 작업이 진행됨.
+	- <annotation-driven> 이라는 설정을 통하여 url 매핑이 일어나게 됨.
+	- <annotation-driven> 에 의해 @RequestMapping 을 사용할 수 있게 되고
+	  @RequestMapping에 지정된 url로 웹 브라우저의 요청 url이 매핑이 되게 됨.
+	  
+5. HomeController
+	- servlet.context.xml 에 의해 브라우저의 요청은 HomeController 로 넘어가게 됨.
+	@RequestMapping 에 연결되어 있는 url-pattern에 의하여 맞는 mapping을 찾아서
+	비지니스 로직을 수행하게 됨.
+	- 비지니스 로직을 수행 후, 해당 결과값을 Model(ModelAndView) 이라는 객체에 특정 이름(키)을
+	  부여하여 작업을 처리하게 됨.
+
+6. /WEB-INF/spring/appServlet/servlet-context.xml
+	- 넘겨받은 문자열을 InternalResourceViewResolver 라는 객체를 통해서 뷰(view)를 찾게 됨.
+	이 때 넘겨받은 문자열 앞에는 /WEB-INF/view를 붙이고 뒤에는 .jsp를 붙여주게 됨.
+	결국 /WEB-INF/views/home.jsp 라고 붙게 되어 해당 경로에 해당 페이지로 뷰 이름이 만들어지게 됨.
+	
+7. web.xml
+	- 전달된 뷰 이름으로 인해서 home.jsp 페이지를 볼 수 있게 됨.
+	- 결국 클라이언트의 요청에 대하여 응답이 이루어지게 됨.
+	
+	

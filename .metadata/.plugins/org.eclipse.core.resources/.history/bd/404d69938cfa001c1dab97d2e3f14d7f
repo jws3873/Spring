@@ -1,0 +1,9 @@
+package com.idol.model;
+
+public class BoardrankingDTO {
+	
+	private int MEMBER_NO;
+	private String MEMBER_ID;
+	private int BOARDCOUNT;
+
+}

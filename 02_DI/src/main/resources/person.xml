@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="person1" class="com.khie.di04.Person">
+		<constructor-arg value="홍길동"/>
+		<constructor-arg value="남자"/>
+		<constructor-arg value="27"/>
+		<constructor-arg value="941212"/>
+	</bean>
+	
+	<bean id="person2" class="com.khie.di04.Person">
+		<constructor-arg value="유관순"/>
+		<constructor-arg value="여자"/>
+		<constructor-arg value="19"/>
+		<constructor-arg value="970717"/>
+	</bean>
+	
+	<bean id="person3" class="com.khie.di04.Person">
+		<property name="name" value="이순신"/>
+		<property name="gender" value="남자"/>
+		<property name="age" value="33"/>
+		<property name="juminNo" value="881201-1313458"/>
+	
+	</bean>
+	
+	
+	<bean id="info" class="com.khie.di04.PeronInfo">
+	<!-- <property name="person">
+			<ref bean="person"/>
+	</property> -->
+	
+
+	
+	<constructor-arg>
+		<ref bean="person3"/>
+	</constructor-arg>
+	
+	<!-- <constructor-arg value="">
+	</constructor-arg> --> <!-- 인자가 객체일경우 사용 x -->
+	
+	</bean>
+
+</beans>

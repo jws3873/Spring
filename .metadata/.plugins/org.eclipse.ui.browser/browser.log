@@ -1,0 +1,299 @@
+
+5월 22, 2022 18:08:50.89 NEW SESSION
+5월 22, 2022 18:08:50.89 [24712:15608:0522/180850.087:ERROR:device_event_log_impl.cc(214)] [18:08:50.088] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 22, 2022 18:08:50.90 [24712:15608:0522/180850.090:ERROR:device_event_log_impl.cc(214)] [18:08:50.091] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 22, 2022 18:09:47.80 [24712:27380:0522/180947.079:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+5월 22, 2022 18:10:25.939 [19004:28608:0522/181025.938:ERROR:device_event_log_impl.cc(214)] [18:10:25.938] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 22, 2022 18:10:25.940 [19004:28608:0522/181025.940:ERROR:device_event_log_impl.cc(214)] [18:10:25.940] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 22, 2022 18:11:23.779 [19004:14496:0522/181123.778:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+
+5월 26, 2022 11:26:51.229 NEW SESSION
+5월 26, 2022 11:26:51.229 [17148:15652:0526/112651.227:ERROR:device_event_log_impl.cc(214)] [11:26:51.227] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 26, 2022 11:26:51.230 [17148:15652:0526/112651.230:ERROR:device_event_log_impl.cc(214)] [11:26:51.230] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 26, 2022 11:27:48.213 [17148:13588:0526/112748.213:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+5월 26, 2022 12:10:19.883 [28436:11936:0526/121019.883:ERROR:device_event_log_impl.cc(214)] [12:10:19.883] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 26, 2022 12:10:19.888 [28436:11936:0526/121019.887:ERROR:device_event_log_impl.cc(214)] [12:10:19.887] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 26, 2022 12:11:16.373 [28436:22488:0526/121116.373:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+
+5월 26, 2022 12:24:01.560 NEW SESSION
+5월 26, 2022 12:24:01.560 [22300:3584:0526/122401.558:ERROR:device_event_log_impl.cc(214)] [12:24:01.558] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 26, 2022 12:24:01.561 [22300:3584:0526/122401.561:ERROR:device_event_log_impl.cc(214)] [12:24:01.561] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 26, 2022 12:52:45.117 [14076:22812:0526/125245.116:ERROR:device_event_log_impl.cc(214)] [12:52:45.116] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 26, 2022 12:52:45.119 [14076:22812:0526/125245.119:ERROR:device_event_log_impl.cc(214)] [12:52:45.119] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 26, 2022 12:52:45.120 [14076:22812:0526/125245.119:ERROR:device_event_log_impl.cc(214)] [12:52:45.119] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 26, 2022 12:53:42.164 [14076:3684:0526/125342.164:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+5월 26, 2022 17:19:53.312 [14076:22812:0526/171953.309:ERROR:interface_endpoint_client.cc(665)] Message 5 rejected by interface blink.mojom.WidgetHost
+5월 26, 2022 17:53:42.166 [14076:14568:0526/175342.165:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+5월 26, 2022 19:58:37.43 [14076:22812:0526/195837.042:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+5월 26, 2022 20:35:03.334 [14076:22812:0526/203503.333:ERROR:interface_endpoint_client.cc(665)] Message 5 rejected by interface blink.mojom.WidgetHost
+
+5월 30, 2022 20:07:36.965 NEW SESSION
+5월 30, 2022 20:07:36.965 [24540:32368:0530/200736.961:ERROR:device_event_log_impl.cc(214)] [20:07:36.962] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 30, 2022 20:07:36.966 [24540:32368:0530/200736.965:ERROR:device_event_log_impl.cc(214)] [20:07:36.966] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 30, 2022 20:07:36.966 [24540:32368:0530/200736.965:ERROR:device_event_log_impl.cc(214)] [20:07:36.966] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 30, 2022 20:08:34.45 [24540:31784:0530/200834.045:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+
+6월 01, 2022 02:21:12.886 NEW SESSION
+6월 01, 2022 02:21:12.887 [27988:32252:0601/022112.884:ERROR:device_event_log_impl.cc(214)] [02:21:12.884] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 01, 2022 02:21:12.888 [27988:32252:0601/022112.888:ERROR:device_event_log_impl.cc(214)] [02:21:12.887] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 01, 2022 02:21:12.888 [27988:32252:0601/022112.888:ERROR:device_event_log_impl.cc(214)] [02:21:12.887] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 01, 2022 02:22:09.877 [27988:15272:0601/022209.876:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+
+6월 07, 2022 11:14:35.113 NEW SESSION
+6월 07, 2022 11:14:35.113 [27644:18472:0607/111435.110:ERROR:device_event_log_impl.cc(214)] [11:14:35.110] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 07, 2022 11:14:35.113 [27644:18472:0607/111435.112:ERROR:device_event_log_impl.cc(214)] [11:14:35.112] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 07, 2022 11:15:32.674 [27644:16376:0607/111532.673:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+6월 07, 2022 11:44:19.516 [27644:18472:0607/114419.514:ERROR:device_event_log_impl.cc(214)] [11:44:19.514] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+
+6월 09, 2022 19:37:31.892 NEW SESSION
+6월 09, 2022 19:37:31.892 [9516:33940:0609/193731.889:ERROR:device_event_log_impl.cc(214)] [19:37:31.888] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 09, 2022 19:37:31.893 [9516:33940:0609/193731.892:ERROR:device_event_log_impl.cc(214)] [19:37:31.892] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 09, 2022 19:38:28.729 [9516:21768:0609/193828.728:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+6월 09, 2022 19:50:17.590 [9516:33940:0609/195017.589:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+6월 09, 2022 22:29:59.860 [9516:33940:0609/222959.859:ERROR:device_event_log_impl.cc(214)] [22:29:59.860] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+6월 10, 2022 24:38:28.727 [9516:25876:0610/003828.726:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+6월 10, 2022 01:21:00.262 [9516:33940:0610/012100.262:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+
+6월 10, 2022 21:03:45.301 NEW SESSION
+6월 10, 2022 21:03:45.301 [16592:11760:0610/210345.297:ERROR:device_event_log_impl.cc(214)] [21:03:45.297] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 10, 2022 21:03:45.302 [16592:11760:0610/210345.300:ERROR:device_event_log_impl.cc(214)] [21:03:45.300] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 10, 2022 21:03:45.302 [16592:11760:0610/210345.300:ERROR:device_event_log_impl.cc(214)] [21:03:45.300] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 10, 2022 21:09:12.542 [30160:29224:0610/210912.542:ERROR:device_event_log_impl.cc(214)] [21:09:12.541] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 10, 2022 21:09:12.545 [30160:29224:0610/210912.544:ERROR:device_event_log_impl.cc(214)] [21:09:12.544] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 10, 2022 21:09:12.545 [30160:29224:0610/210912.544:ERROR:device_event_log_impl.cc(214)] [21:09:12.544] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 10, 2022 21:10:09.365 [30160:20140:0610/211009.365:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+6월 11, 2022 24:35:49.369 [30160:29224:0611/003549.368:ERROR:interface_endpoint_client.cc(665)] Message 1 rejected by interface blink.mojom.WidgetHost
+6월 11, 2022 24:38:02.484 [30160:29224:0611/003802.483:ERROR:interface_endpoint_client.cc(665)] Message 1 rejected by interface blink.mojom.WidgetHost
+
+6월 15, 2022 08:48:12.857 NEW SESSION
+6월 15, 2022 08:48:12.857 [26632:33096:0615/084812.855:ERROR:device_event_log_impl.cc(214)] [08:48:12.854] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 15, 2022 08:48:12.858 [26632:33096:0615/084812.856:ERROR:device_event_log_impl.cc(214)] [08:48:12.855] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 15, 2022 08:48:44.994 [10972:17516:0615/084844.993:ERROR:device_event_log_impl.cc(214)] [08:48:44.993] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 15, 2022 08:48:44.995 [10972:17516:0615/084844.994:ERROR:device_event_log_impl.cc(214)] [08:48:44.994] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 15, 2022 08:49:42.424 [10972:13560:0615/084942.423:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+6월 15, 2022 09:41:58.121 [10972:17516:0615/094158.120:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 15, 2022 09:41:58.122 [10972:17516:0615/094158.120:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 15, 2022 09:41:58.123 [10972:17516:0615/094158.120:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 15, 2022 09:41:58.123 [10972:17516:0615/094158.120:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 15, 2022 09:41:58.123 [10972:17516:0615/094158.120:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 15, 2022 09:41:58.186 [10972:17516:0615/094158.186:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 15, 2022 09:41:58.187 [10972:17516:0615/094158.186:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 15, 2022 09:41:58.187 [10972:17516:0615/094158.186:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 15, 2022 09:41:58.187 [10972:17516:0615/094158.186:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 15, 2022 09:41:58.188 [10972:17516:0615/094158.186:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 15, 2022 10:19:51.854 [10972:17516:0615/101951.853:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 15, 2022 10:19:51.855 [10972:17516:0615/101951.853:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 15, 2022 10:19:51.856 [10972:17516:0615/101951.853:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 15, 2022 10:19:51.856 [10972:17516:0615/101951.853:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 15, 2022 10:19:51.857 [10972:17516:0615/101951.853:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 15, 2022 10:19:51.857 [10972:17516:0615/101951.853:ERROR:CONSOLE(6)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/panels/console/console.js (6)
+6월 15, 2022 10:49:07.396 [10972:17516:0615/104907.396:ERROR:CONSOLE(1)] "One popover is already visible", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js (1)
+6월 15, 2022 13:49:42.432 [10972:31268:0615/134942.431:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+
+6월 17, 2022 08:53:02.827 NEW SESSION
+6월 17, 2022 08:53:02.827 [11904:33196:0617/085302.824:ERROR:device_event_log_impl.cc(214)] [08:53:02.825] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 17, 2022 08:53:02.828 [11904:33196:0617/085302.825:ERROR:device_event_log_impl.cc(214)] [08:53:02.826] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 17, 2022 08:53:53.331 [12400:22804:0617/085353.331:ERROR:device_event_log_impl.cc(214)] [08:53:53.331] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 17, 2022 08:53:53.332 [12400:22804:0617/085353.331:ERROR:device_event_log_impl.cc(214)] [08:53:53.331] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 17, 2022 08:54:41.179 [5784:29596:0617/085441.178:ERROR:device_event_log_impl.cc(214)] [08:54:41.179] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 17, 2022 08:54:41.179 [5784:29596:0617/085441.179:ERROR:device_event_log_impl.cc(214)] [08:54:41.179] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 17, 2022 08:55:37.979 [5784:1912:0617/085537.978:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+6월 17, 2022 13:54:21.821 [5784:29596:0617/135421.820:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+6월 17, 2022 13:55:13.477 [5784:29596:0617/135513.476:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+6월 17, 2022 13:55:37.977 [5784:16608:0617/135537.977:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+6월 17, 2022 14:02:47.607 [5784:29596:0617/140247.607:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+6월 17, 2022 14:03:40.556 [5784:29596:0617/140340.556:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+6월 17, 2022 14:04:00.73 [5784:29596:0617/140400.072:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+6월 17, 2022 14:05:17.575 [5784:29596:0617/140517.575:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+6월 17, 2022 14:12:09.229 [5784:29596:0617/141209.228:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+6월 17, 2022 14:12:21.434 [5784:29596:0617/141221.434:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+6월 17, 2022 14:16:53.941 [5784:29596:0617/141653.941:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+6월 17, 2022 14:17:35.210 [5784:29596:0617/141735.209:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+6월 17, 2022 14:18:03.47 [5784:29596:0617/141803.046:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+6월 17, 2022 14:18:58.95 [5784:29596:0617/141858.094:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+6월 17, 2022 14:19:32.211 [5784:29596:0617/141932.211:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+6월 17, 2022 14:20:02.971 [5784:29596:0617/142002.970:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+6월 17, 2022 15:25:58.760 [5784:29596:0617/152558.759:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+6월 17, 2022 15:28:24.52 [5784:29596:0617/152824.051:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+6월 17, 2022 15:29:08.100 [5784:29596:0617/152908.100:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+6월 17, 2022 15:29:20.601 [5784:29596:0617/152920.601:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+6월 17, 2022 15:29:35.704 [5784:29596:0617/152935.703:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+6월 17, 2022 15:33:40.340 [5784:29596:0617/153340.340:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+6월 17, 2022 15:38:45.410 [5784:29596:0617/153845.410:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+6월 17, 2022 15:39:11.658 [5784:29596:0617/153911.658:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+6월 17, 2022 15:39:46.410 [5784:29596:0617/153946.410:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+6월 17, 2022 15:39:51.681 [5784:29596:0617/153951.680:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+6월 17, 2022 15:48:41.61 [5784:29596:0617/154841.060:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+6월 17, 2022 15:50:48.635 [5784:29596:0617/155048.634:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+6월 17, 2022 16:17:49.573 [5784:29596:0617/161749.572:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+6월 17, 2022 16:21:25.43 [5784:29596:0617/162125.042:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+6월 17, 2022 16:47:22.22 [5784:29596:0617/164722.021:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+6월 17, 2022 17:27:14.274 [5784:29596:0617/172714.273:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+6월 17, 2022 17:28:44.891 [5784:29596:0617/172844.891:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+6월 17, 2022 17:42:56.976 [5784:29596:0617/174256.975:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+
+6월 18, 2022 01:53:40.29 NEW SESSION
+6월 18, 2022 01:53:40.29 [25820:31440:0618/015340.027:ERROR:device_event_log_impl.cc(214)] [01:53:40.027] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 18, 2022 01:53:40.30 [25820:31440:0618/015340.029:ERROR:device_event_log_impl.cc(214)] [01:53:40.029] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 18, 2022 01:54:36.820 [25820:25096:0618/015436.819:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+6월 18, 2022 02:04:52.442 [25820:31440:0618/020452.442:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+6월 18, 2022 02:15:15.266 [25820:31440:0618/021515.265:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+6월 18, 2022 06:17:56.44 [25820:31440:0618/061756.044:ERROR:device_event_log_impl.cc(214)] [06:17:56.042] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+6월 18, 2022 06:54:36.813 [25820:35424:0618/065436.813:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+6월 18, 2022 11:54:36.813 [25820:13828:0618/115436.813:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+6월 18, 2022 16:54:36.814 [25820:28108:0618/165436.814:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+6월 18, 2022 18:56:04.766 [25820:31440:0618/185604.765:ERROR:interface_endpoint_client.cc(665)] Message 1 rejected by interface blink.mojom.WidgetHost
+6월 18, 2022 18:57:53.211 [25820:31440:0618/185753.210:ERROR:interface_endpoint_client.cc(665)] Message 1 rejected by interface blink.mojom.WidgetHost
+6월 18, 2022 18:58:07.484 [25820:31440:0618/185807.484:ERROR:interface_endpoint_client.cc(665)] Message 1 rejected by interface blink.mojom.WidgetHost
+6월 18, 2022 18:59:43.08 [25820:31440:0618/185943.007:ERROR:interface_endpoint_client.cc(665)] Message 5 rejected by interface blink.mojom.WidgetHost
+6월 18, 2022 21:44:59.631 [25820:31440:0618/214459.629:ERROR:interface_endpoint_client.cc(665)] Message 1 rejected by interface blink.mojom.WidgetHost
+6월 18, 2022 21:45:53.187 [25820:31440:0618/214553.186:ERROR:interface_endpoint_client.cc(665)] Message 1 rejected by interface blink.mojom.WidgetHost
+6월 18, 2022 21:54:36.812 [25820:4972:0618/215436.811:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+
+6월 19, 2022 04:35:19.832 NEW SESSION
+6월 19, 2022 04:35:19.832 [8244:37132:0619/043519.828:ERROR:device_event_log_impl.cc(214)] [04:35:19.829] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 19, 2022 04:35:19.833 [8244:37132:0619/043519.830:ERROR:device_event_log_impl.cc(214)] [04:35:19.830] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 19, 2022 04:36:16.833 [8244:6672:0619/043616.831:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+6월 19, 2022 07:05:08.236 [8244:34736:0619/070508.234:ERROR:mcs_client.cc(756)] Received close command, resetting connection.
+6월 19, 2022 09:36:16.835 [8244:26180:0619/093616.834:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+
+6월 23, 2022 24:06:25.61 NEW SESSION
+6월 23, 2022 24:06:25.61 [33944:24288:0623/000625.058:ERROR:device_event_log_impl.cc(214)] [00:06:25.059] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 23, 2022 24:06:25.62 [33944:24288:0623/000625.061:ERROR:device_event_log_impl.cc(214)] [00:06:25.061] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 23, 2022 24:07:22.694 [33944:20768:0623/000722.694:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+
+6월 25, 2022 20:15:16.453 NEW SESSION
+6월 25, 2022 20:15:16.454 [14408:4288:0625/201516.451:ERROR:device_event_log_impl.cc(214)] [20:15:16.452] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 25, 2022 20:15:16.454 [14408:4288:0625/201516.454:ERROR:device_event_log_impl.cc(214)] [20:15:16.455] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 25, 2022 20:16:12.515 [14408:28140:0625/201612.515:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+6월 26, 2022 02:45:49.666 [1444:3732:0626/024549.666:ERROR:device_event_log_impl.cc(214)] [02:45:49.665] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 26, 2022 02:45:49.669 [1444:3732:0626/024549.668:ERROR:device_event_log_impl.cc(214)] [02:45:49.668] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 26, 2022 02:46:45.785 [1444:15744:0626/024645.784:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+6월 26, 2022 03:54:23.153 [1444:3732:0626/035423.152:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+6월 26, 2022 07:46:45.783 [1444:20424:0626/074645.782:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+6월 26, 2022 12:46:45.785 [1444:35764:0626/124645.784:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+6월 26, 2022 15:33:49.794 [1444:3732:0626/153349.793:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+6월 26, 2022 17:46:45.790 [1444:29568:0626/174645.789:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+6월 26, 2022 22:46:45.793 [1444:29568:0626/224645.792:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+
+6월 27, 2022 09:02:43.453 NEW SESSION
+6월 27, 2022 09:02:43.454 [36720:9936:0627/090243.450:ERROR:device_event_log_impl.cc(214)] [09:02:43.450] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 27, 2022 09:02:43.454 [36720:9936:0627/090243.453:ERROR:device_event_log_impl.cc(214)] [09:02:43.453] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 27, 2022 09:04:12.863 [13304:30268:0627/090412.863:ERROR:device_event_log_impl.cc(214)] [09:04:12.863] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 27, 2022 09:04:12.864 [13304:30268:0627/090412.864:ERROR:device_event_log_impl.cc(214)] [09:04:12.864] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 27, 2022 09:05:56.890 [16024:15088:0627/090556.889:ERROR:device_event_log_impl.cc(214)] [09:05:56.890] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 27, 2022 09:05:56.891 [16024:15088:0627/090556.891:ERROR:device_event_log_impl.cc(214)] [09:05:56.891] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 27, 2022 09:06:53.964 [16024:32860:0627/090653.963:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+6월 27, 2022 10:07:15.496 [16024:15088:0627/100715.495:ERROR:device_event_log_impl.cc(214)] [10:07:15.493] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+6월 27, 2022 12:25:55.146 [16024:15088:0627/122555.146:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+6월 27, 2022 14:06:53.968 [16024:29580:0627/140653.967:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+6월 27, 2022 14:29:57.410 [16024:15088:0627/142957.409:ERROR:device_event_log_impl.cc(214)] [14:29:57.409] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+6월 27, 2022 17:19:27.297 [16024:15088:0627/171927.296:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+
+6월 28, 2022 08:50:39.606 NEW SESSION
+6월 28, 2022 08:50:39.606 [1436:25636:0628/085039.596:ERROR:device_event_log_impl.cc(214)] [08:50:39.597] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 28, 2022 08:50:39.607 [1436:25636:0628/085039.599:ERROR:device_event_log_impl.cc(214)] [08:50:39.599] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 28, 2022 08:51:35.632 [1436:23996:0628/085135.632:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+6월 28, 2022 10:19:22.42 [1436:25636:0628/101922.041:ERROR:interface_endpoint_client.cc(665)] Message 5 rejected by interface blink.mojom.WidgetHost
+6월 28, 2022 10:19:26.801 [1436:25636:0628/101926.800:ERROR:interface_endpoint_client.cc(665)] Message 5 rejected by interface blink.mojom.WidgetHost
+6월 28, 2022 13:50:21.70 [1436:25636:0628/135021.069:ERROR:device_event_log_impl.cc(214)] [13:50:21.054] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+6월 28, 2022 13:51:35.634 [1436:23200:0628/135135.634:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+6월 28, 2022 18:51:35.640 [1436:8832:0628/185135.639:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+
+6월 29, 2022 09:39:25.722 NEW SESSION
+6월 29, 2022 09:39:25.722 [26164:23172:0629/093925.720:ERROR:device_event_log_impl.cc(214)] [09:39:25.720] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 29, 2022 09:39:25.724 [26164:23172:0629/093925.723:ERROR:device_event_log_impl.cc(214)] [09:39:25.723] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 29, 2022 09:40:22.547 [26164:32084:0629/094022.546:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+6월 29, 2022 10:28:39.218 [26164:23172:0629/102839.217:ERROR:device_event_log_impl.cc(214)] [10:28:39.216] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+6월 29, 2022 10:28:39.241 [26164:23172:0629/102839.240:ERROR:device_event_log_impl.cc(214)] [10:28:39.236] USB: usb_service_win.cc:307 SetupDiEnumDeviceInterfaces: 사용 가능한 데이터가 없습니다. (0x103)
+6월 29, 2022 10:31:54.693 [26164:23172:0629/103154.692:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+6월 29, 2022 10:48:46.476 [26164:23172:0629/104846.476:ERROR:device_event_log_impl.cc(214)] [10:48:46.475] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+6월 29, 2022 10:49:03.196 [26164:23172:0629/104903.196:ERROR:device_event_log_impl.cc(214)] [10:49:03.195] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+6월 29, 2022 12:00:58.81 [26164:23172:0629/120058.080:ERROR:device_event_log_impl.cc(214)] [12:00:58.076] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+6월 29, 2022 14:40:22.547 [26164:35624:0629/144022.547:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+6월 29, 2022 15:58:05.822 [26164:23172:0629/155805.821:ERROR:CONSOLE(1)] "TypeError: Cannot read properties of undefined (reading 'indexOf') TypeError: Cannot read properties of undefined (reading 'indexOf')
+6월 29, 2022 15:58:05.823     at Hn.contentType (devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js:1:279896)
+6월 29, 2022 15:58:05.823     at new ve (devtools://devtools/bundled/devtools-frontend/front_end/models/bindings/bindings.js:1:55723)
+6월 29, 2022 15:58:05.824     at Le.resourceAdded (devtools://devtools/bundled/devtools-frontend/front_end/models/bindings/bindings.js:1:54984)
+6월 29, 2022 15:58:05.825     at Vn.dispatchEventToListeners (devtools://devtools/bundled/devtools-frontend/front_end/core/common/common.js:1:18605)
+6월 29, 2022 15:58:05.825     at Gn.addRequest (devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js:1:294366)
+6월 29, 2022 15:58:05.825     at Vn.onRequestFinished (devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js:1:286236)
+6월 29, 2022 15:58:05.826     at te.dispatchEventToListeners (devtools://devtools/bundled/devtools-frontend/front_end/core/common/common.js:1:18605)
+6월 29, 2022 15:58:05.826     at de.finishNetworkRequest (devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js:1:107119)
+6월 29, 2022 15:58:05.826     at de.loadingFinished (devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js:1:102609)
+6월 29, 2022 15:58:05.827     at g.dispatch (devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js:1:7307)", source: devtools://devtools/bundled/devtools-frontend/front_end/core/host/host.js (1)
+6월 29, 2022 15:59:36.847 [26164:23172:0629/155936.847:ERROR:CONSOLE(1)] "TypeError: Cannot read properties of undefined (reading 'indexOf') TypeError: Cannot read properties of undefined (reading 'indexOf')
+6월 29, 2022 15:59:36.848     at Hn.contentType (devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js:1:279896)
+6월 29, 2022 15:59:36.849     at new ve (devtools://devtools/bundled/devtools-frontend/front_end/models/bindings/bindings.js:1:55723)
+6월 29, 2022 15:59:36.849     at Le.resourceAdded (devtools://devtools/bundled/devtools-frontend/front_end/models/bindings/bindings.js:1:54984)
+6월 29, 2022 15:59:36.849     at Vn.dispatchEventToListeners (devtools://devtools/bundled/devtools-frontend/front_end/core/common/common.js:1:18605)
+6월 29, 2022 15:59:36.850     at Gn.addRequest (devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js:1:294366)
+6월 29, 2022 15:59:36.851     at Vn.onRequestFinished (devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js:1:286236)
+6월 29, 2022 15:59:36.852     at te.dispatchEventToListeners (devtools://devtools/bundled/devtools-frontend/front_end/core/common/common.js:1:18605)
+6월 29, 2022 15:59:36.852     at de.finishNetworkRequest (devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js:1:107119)
+6월 29, 2022 15:59:36.852     at de.loadingFinished (devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js:1:102609)
+6월 29, 2022 15:59:36.853     at g.dispatch (devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js:1:7307)", source: devtools://devtools/bundled/devtools-frontend/front_end/core/host/host.js (1)
+6월 29, 2022 16:02:14.864 [26164:23172:0629/160214.863:ERROR:CONSOLE(1)] "TypeError: Cannot read properties of undefined (reading 'indexOf') TypeError: Cannot read properties of undefined (reading 'indexOf')
+6월 29, 2022 16:02:14.864     at Hn.contentType (devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js:1:279896)
+6월 29, 2022 16:02:14.864     at new ve (devtools://devtools/bundled/devtools-frontend/front_end/models/bindings/bindings.js:1:55723)
+6월 29, 2022 16:02:14.865     at Le.resourceAdded (devtools://devtools/bundled/devtools-frontend/front_end/models/bindings/bindings.js:1:54984)
+6월 29, 2022 16:02:14.865     at Vn.dispatchEventToListeners (devtools://devtools/bundled/devtools-frontend/front_end/core/common/common.js:1:18605)
+6월 29, 2022 16:02:14.866     at Gn.addRequest (devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js:1:294366)
+6월 29, 2022 16:02:14.866     at Vn.onRequestFinished (devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js:1:286236)
+6월 29, 2022 16:02:14.867     at te.dispatchEventToListeners (devtools://devtools/bundled/devtools-frontend/front_end/core/common/common.js:1:18605)
+6월 29, 2022 16:02:14.867     at de.finishNetworkRequest (devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js:1:107119)
+6월 29, 2022 16:02:14.868     at de.loadingFinished (devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js:1:102609)
+6월 29, 2022 16:02:14.868     at g.dispatch (devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js:1:7307)", source: devtools://devtools/bundled/devtools-frontend/front_end/core/host/host.js (1)
+6월 29, 2022 16:03:37.501 [26164:23172:0629/160337.500:ERROR:CONSOLE(1)] "TypeError: Cannot read properties of undefined (reading 'indexOf') TypeError: Cannot read properties of undefined (reading 'indexOf')
+6월 29, 2022 16:03:37.501     at Hn.contentType (devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js:1:279896)
+6월 29, 2022 16:03:37.502     at new ve (devtools://devtools/bundled/devtools-frontend/front_end/models/bindings/bindings.js:1:55723)
+6월 29, 2022 16:03:37.502     at Le.resourceAdded (devtools://devtools/bundled/devtools-frontend/front_end/models/bindings/bindings.js:1:54984)
+6월 29, 2022 16:03:37.503     at Vn.dispatchEventToListeners (devtools://devtools/bundled/devtools-frontend/front_end/core/common/common.js:1:18605)
+6월 29, 2022 16:03:37.503     at Gn.addRequest (devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js:1:294366)
+6월 29, 2022 16:03:37.504     at Vn.onRequestFinished (devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js:1:286236)
+6월 29, 2022 16:03:37.504     at te.dispatchEventToListeners (devtools://devtools/bundled/devtools-frontend/front_end/core/common/common.js:1:18605)
+6월 29, 2022 16:03:37.504     at de.finishNetworkRequest (devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js:1:107119)
+6월 29, 2022 16:03:37.505     at de.loadingFinished (devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js:1:102609)
+6월 29, 2022 16:03:37.505     at g.dispatch (devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js:1:7307)", source: devtools://devtools/bundled/devtools-frontend/front_end/core/host/host.js (1)
+6월 29, 2022 16:07:44.966 [26164:23172:0629/160744.966:ERROR:CONSOLE(1)] "TypeError: Cannot read properties of undefined (reading 'indexOf') TypeError: Cannot read properties of undefined (reading 'indexOf')
+6월 29, 2022 16:07:44.967     at Hn.contentType (devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js:1:279896)
+6월 29, 2022 16:07:44.967     at new ve (devtools://devtools/bundled/devtools-frontend/front_end/models/bindings/bindings.js:1:55723)
+6월 29, 2022 16:07:44.968     at Le.resourceAdded (devtools://devtools/bundled/devtools-frontend/front_end/models/bindings/bindings.js:1:54984)
+6월 29, 2022 16:07:44.968     at Vn.dispatchEventToListeners (devtools://devtools/bundled/devtools-frontend/front_end/core/common/common.js:1:18605)
+6월 29, 2022 16:07:44.969     at Gn.addRequest (devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js:1:294366)
+6월 29, 2022 16:07:44.969     at Vn.onRequestFinished (devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js:1:286236)
+6월 29, 2022 16:07:44.970     at te.dispatchEventToListeners (devtools://devtools/bundled/devtools-frontend/front_end/core/common/common.js:1:18605)
+6월 29, 2022 16:07:44.970     at de.finishNetworkRequest (devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js:1:107119)
+6월 29, 2022 16:07:44.970     at de.loadingFinished (devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js:1:102609)
+6월 29, 2022 16:07:44.971     at g.dispatch (devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js:1:7307)", source: devtools://devtools/bundled/devtools-frontend/front_end/core/host/host.js (1)
+6월 29, 2022 16:10:36.957 [26164:23172:0629/161036.956:ERROR:CONSOLE(1)] "TypeError: Cannot read properties of undefined (reading 'indexOf') TypeError: Cannot read properties of undefined (reading 'indexOf')
+6월 29, 2022 16:10:36.957     at Hn.contentType (devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js:1:279896)
+6월 29, 2022 16:10:36.958     at new ve (devtools://devtools/bundled/devtools-frontend/front_end/models/bindings/bindings.js:1:55723)
+6월 29, 2022 16:10:36.959     at Le.resourceAdded (devtools://devtools/bundled/devtools-frontend/front_end/models/bindings/bindings.js:1:54984)
+6월 29, 2022 16:10:36.959     at Vn.dispatchEventToListeners (devtools://devtools/bundled/devtools-frontend/front_end/core/common/common.js:1:18605)
+6월 29, 2022 16:10:36.959     at Gn.addRequest (devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js:1:294366)
+6월 29, 2022 16:10:36.960     at Vn.onRequestFinished (devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js:1:286236)
+6월 29, 2022 16:10:36.960     at te.dispatchEventToListeners (devtools://devtools/bundled/devtools-frontend/front_end/core/common/common.js:1:18605)
+6월 29, 2022 16:10:36.960     at de.finishNetworkRequest (devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js:1:107119)
+6월 29, 2022 16:10:36.961     at de.loadingFinished (devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js:1:102609)
+6월 29, 2022 16:10:36.961     at g.dispatch (devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js:1:7307)", source: devtools://devtools/bundled/devtools-frontend/front_end/core/host/host.js (1)
+6월 29, 2022 16:10:48.384 [26164:23172:0629/161048.383:ERROR:CONSOLE(1)] "TypeError: Cannot read properties of undefined (reading 'indexOf') TypeError: Cannot read properties of undefined (reading 'indexOf')
+6월 29, 2022 16:10:48.384     at Hn.contentType (devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js:1:279896)
+6월 29, 2022 16:10:48.384     at new ve (devtools://devtools/bundled/devtools-frontend/front_end/models/bindings/bindings.js:1:55723)
+6월 29, 2022 16:10:48.385     at Le.resourceAdded (devtools://devtools/bundled/devtools-frontend/front_end/models/bindings/bindings.js:1:54984)
+6월 29, 2022 16:10:48.385     at Vn.dispatchEventToListeners (devtools://devtools/bundled/devtools-frontend/front_end/core/common/common.js:1:18605)
+6월 29, 2022 16:10:48.385     at Gn.addRequest (devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js:1:294366)
+6월 29, 2022 16:10:48.386     at Vn.onRequestFinished (devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js:1:286236)
+6월 29, 2022 16:10:48.386     at te.dispatchEventToListeners (devtools://devtools/bundled/devtools-frontend/front_end/core/common/common.js:1:18605)
+6월 29, 2022 16:10:48.386     at de.finishNetworkRequest (devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js:1:107119)
+6월 29, 2022 16:10:48.386     at de.loadingFinished (devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js:1:102609)
+6월 29, 2022 16:10:48.387     at g.dispatch (devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js:1:7307)", source: devtools://devtools/bundled/devtools-frontend/front_end/core/host/host.js (1)
+6월 29, 2022 16:30:03.626 [26164:23172:0629/163003.626:ERROR:interface_endpoint_client.cc(665)] Message 5 rejected by interface blink.mojom.WidgetHost
+6월 29, 2022 18:23:06.906 [26164:18932:0629/182306.905:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+6월 29, 2022 18:23:32.995 [26164:18932:0629/182332.994:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+6월 29, 2022 18:24:32.565 [26164:18932:0629/182432.564:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+6월 29, 2022 18:24:47.342 [26164:23172:0629/182447.342:ERROR:device_event_log_impl.cc(214)] [18:24:47.307] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+6월 29, 2022 19:40:22.552 [26164:12812:0629/194022.552:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+6월 30, 2022 24:04:22.873 [26164:18932:0630/000422.872:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -105
+6월 30, 2022 24:04:27.657 [26164:18932:0630/000427.657:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -105
+6월 30, 2022 24:40:22.543 [26164:19128:0630/004022.541:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater

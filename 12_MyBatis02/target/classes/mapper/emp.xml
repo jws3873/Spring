@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  <!-- namespace명은 패키지 명을 포함해서 DAO 인터페이스 이름으로 작성하는 것이 관례.
+	 namespace명은 mapper 들을 구분하는데 식별자로 사용됨.
+ -->
+ 
+ 	<!-- 형식)<![CDATA[쿼리문]]> 
+	
+		쿼리문을 작성할 때 조건식 기호(>,<,$)를 사용해야 하는데 XML에서는 이런 기호들을
+		쿼리문의 조건식 기호로 인식하는 것이 아니라 태그로 인식하는 경우가 발생함. 이런 경우에는 
+		에러가 발생함. 따라서 조건식 기호를 단순한 문자열로 인식을 시켜주어야 함.
+	 -->  
+<mapper namespace="dao">
+
+	<select id="all" resultType="dto"> 
+		select *from emp order by empno desc
+	</select>
+	
+	<select id="joblist" resultType="String">
+		 select distinct(job) from emp order by job
+	</select>
+	
+	<select id="mgrlist" resultType="dto">
+		  select *from emp where job = 'MANAGER' order by empno
+	</select>
+	
+	<select id="deptlist" resultType="deptdto">
+		  select *from dept order by deptno
+	</select>
+	
+	<insert id="hire" parameterType="dto">
+		insert into emp values(#{empno}, #{ename}, #{job}, #{mgr}, sysdate, #{sal}, #{comm}, #{deptno})
+	</insert>
+	
+	<select id="cont" parameterType="int" resultType="dto">
+		  select *from emp where empno = #{num}
+	</select>
+	
+	<update id="modify" parameterType="dto">
+		update emp set job = #{job}, mgr = #{mgr}, sal = #{sal},
+		 comm = #{comm}, deptno = #{deptno} where empno = #{empno}
+	</update>
+	
+	<delete id="del" parameterType="int">
+		delete from emp where empno = #{no}
+	</delete>
+	
+	<select id="empno" parameterType="String" resultType="dto">
+	<![CDATA[select *from emp where empno like '%'|| #{keyword} || '%' order by empno
+	]]>
+	</select>
+	
+	<select id="name" parameterType="String" resultType="dto">
+	<![CDATA[select *from emp where ename like '%'|| #{keyword} || '%' order by empno
+	]]>
+	</select>
+	
+	<select id="job" parameterType="String" resultType="dto">
+	<![CDATA[select *from emp where job like '%'|| #{keyword} || '%' order by empno
+	]]>
+	</select>
+	
+
+</mapper>

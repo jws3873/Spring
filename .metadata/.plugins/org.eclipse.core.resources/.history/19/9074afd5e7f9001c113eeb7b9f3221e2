@@ -1,0 +1,27 @@
+  // 차트 현황표시
+  google.charts.load("current", {packages:["corechart"]});
+  google.charts.setOnLoadCallback(drawChart);
+  let topicCount= $('.topicCount');
+  function drawChart() {
+    var data = google.visualization.arrayToDataTable([
+      ['Language', 'Speakers (in millions)'],
+      ['일상', Number(topicCount.eq(1).val())],
+      ['루머', Number(topicCount.eq(2).val())],
+      ['공식', Number(topicCount.eq(3).val())],
+      ['포토', Number(topicCount.eq(4).val())]
+    ]);
+
+    var options = {
+      legend: 'none',
+      pieSliceText: 'label',
+      slices: { 1: {offset: 0},
+                2: {offset: 0},
+                3: {offset: 0},
+                4: {offset: 0},
+      },
+      colors: ['#90caf9', '#80cbc4', '#e6ee9c', '#ffab91', '#f48fb1'],
+    };
+
+    var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+    chart.draw(data, options);
+  }
