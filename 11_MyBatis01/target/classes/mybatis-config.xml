@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- typeAliases
+타입 별칭은 자바 타입에 대한 짧은 이름이다. 오직 XML 설정에서만 사용되며, 타이핑을 줄이기 위해 존재한다.
+-->
+
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+  
+  <configuration>
+  <typeAliases>
+  <typeAlias type="com.spring.model.MemberDTO" alias="DTO"/>
+  <typeAlias type="com.spring.model.MemberDAO" alias="DAO"/>
+  </typeAliases>
+  
+  </configuration>

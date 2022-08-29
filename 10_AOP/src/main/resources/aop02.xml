@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.1.xsd">
+		
+	<context:component-scan base-package="com.khie.aop02"/>
+	<bean id="boy" class="com.khie.aop02.Boy"/>
+	
+	<bean id="girl" class="com.khie.aop02.Girl"/>
+	
+	<bean id="myaspect" class="com.khie.aop02.MyAspect"/>
+	
+	<!-- AOP 설정 작업 -->
+	<aop:config>
+		<!-- <aop:aspect> : 공통 관심 사항이 있는 클래스 설정 -->
+		<aop:aspect ref="myaspect">
+			<!-- 클래스의 이름과 상관 없이 doSomething() 메서드가 pointcut(핵심 기능 기준)이 된다는 의미. -->
+			<aop:pointcut expression="execution(* doSomething())" id="myPointcut"/>
+			<aop:before method="befor" pointcut-ref="myPointcut"/>
+			<aop:after-returning method="after_returning" pointcut-ref="myPointcut"/>
+			<aop:after-throwing method="after_throwing" pointcut-ref="myPointcut"/>
+			<aop:after method="after" pointcut-ref="myPointcut"/>
+		</aop:aspect>
+	</aop:config>
+	
+</beans>

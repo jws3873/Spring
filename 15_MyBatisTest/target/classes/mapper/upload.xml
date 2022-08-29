@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.spring.dao.uploadMapper">
+  
+  <select id="AllList" resultType="uploadDto">
+  	select *
+  	from   upload
+  	order by upload_no desc
+  </select>
+  
+  <insert id="InsertUpload" parameterType="uploadDto">
+  <selectKey keyProperty="upload_no" resultType="int" order="BEFORE">
+	select   max(upload_no)
+	from     upload
+  </selectKey>
+  	
+  	insert 
+  	into	 upload
+  			 (upload_no,
+  			 upload_writer,
+  			 upload_title,
+  			 upload_cont,
+  			 upload_pwd,
+  			 upload_file,
+  			 upload_hit,
+  			 upload_date,
+  			 upload_update)
+  			 
+  	values   (#{upload_no}+1,
+  			  #{upload_writer},
+  			  #{upload_title},
+  			  #{upload_cont},
+  			  #{upload_pwd},
+  			  #{upload_file},
+  			  default,
+  			  sysdate,
+  			  '')
+  </insert>
+  
+  <update id="updateHit" parameterType="int">
+  	update upload
+  	set    upload_hit = upload_hit + 1
+  	where  upload_no = #{no}
+  </update>
+  
+  <select id="SelectUpload" parameterType="int" resultType="uploadDto">
+  	select *
+  	from   upload
+  	where  upload_no = #{no}
+  </select>
+  
+  <update id="UpdateUpload" parameterType="uploadDto">
+  	update upload
+  	set    upload_cont = #{upload_cont},
+  		   upload_file = #{upload_file},
+  		   upload_update = sysdate
+  	where  upload_no = #{upload_no}
+  </update>
+  
+  <delete id="DeleteUpload" parameterType="int">
+
+  	delete 
+  	from    upload
+  	where   upload_no = #{no}
+
+  </delete>
+  
+  <update id="UpdateSequence" parameterType="int">
+  	update upload
+  	set	   upload_no = upload_no-1
+  	where  upload_no > #{no}
+  </update>
+  
+  
+</mapper>

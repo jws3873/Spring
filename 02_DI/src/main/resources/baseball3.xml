@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd">
+	<!-- 클래스에 이미 정의되어있기 때문에 아이디 불필요 
+		<context:annotation-config> 
+		태그는 특정 패키지 안에 있는 클래스 중에서
+		@configuration, @Bean, @Autowired, @Resource 애노테이션이 
+		존재하면 해당 애노테이션을 인식할 수 있도록 만들어 주는 태그 
+		Namespaces에서 체크 필요
+	-->
+	
+	<context:annotation-config/>
+	<bean class="com.khie.di09.Config"/> 
+	<!-- @Bean으로 등록되어 있는 player1,player2 메서드가 객체로 생성된다. -->
+	<!-- <bean id="player1" class="com.khie.di09.Player"> </bean>
+	<bean id="player2" class="com.khie.di09.Player"> </bean> -->
+	
+	<bean id="player3" class="com.khie.di09.Player">
+		<constructor-arg value="김광현"/>
+		<constructor-arg value="32"/>
+		<constructor-arg>
+			<list>
+				<value>지명타사</value>
+				<value>투수</value>
+			</list>
+		</constructor-arg>
+		
+		<property name="weight" value="89"></property>
+		<property name="height" value="185"></property>
+	</bean> 
+	
+	
+</beans>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+		
+		
+	<!-- 스프링과 관련하여 설정 파일을 설정하는 공간 ==> 대부분 DB 설정 공간 -->
+	
+	<!-- 1. DataSource 정보 설정  
+	==> DB와 관계된 connection(연결) 정보를 담고 있는 객체 -->
+	<bean name="dataSource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"/>
+		<property name="url" value="jdbc:oracle:thin:@localhost:1521:XE"/>
+		<property name="username" value="web"/>
+		<property name="password" value="1234"/>
+	</bean>
+	
+	<!-- DriverManagerDaterSource클래스를 DaraSource이름으로 DB와 관계된 connection(연결) 정보를 담고 있는 객체를 생성한다.
+		각각의 멤버변수 는 setter로 멤버에 접근할 수 있으므로 bean의 property 태그를 이용하여 의존관계를 주입한다.
+		setDriverClassName(driverClassName);
+		setUrl(url);
+		setUsername(username);
+		setPassword(password);
+		생성된 DataSource 객체는 JDBCTemplate 또는 MyBatis의 SqlSessionFactoryBean 클래스 설정 dataSource와 mapper/*.xml 파일 정보를 담고 있는 객체에 사용된다.
+	 -->
+	
+	
+	<!-- 2. String JDBCTemplate 클래스 설정 -->
+	<bean name="template"
+		class="org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource" ref="dataSource"></property> <!-- 인자로 참조변수가 들어간다. -->
+	</bean>
+</beans>

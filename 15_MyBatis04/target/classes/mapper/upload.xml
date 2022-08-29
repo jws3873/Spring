@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  <!-- 형식)<![CDATA[쿼리문]]> 
+
+	쿼리문을 작성할 때 조건식 기호(>,<,$)를 사용해야 하는데 XML에서는 이런 기호들을
+	쿼리문의 조건식 기호로 인식하는 것이 아니라 태그로 인식하는 경우가 발생함. 이런 경우에는 
+	에러가 발생함. 따라서 조건식 기호를 단순한 문자열로 인식을 시켜주어야 함.
+ -->  
+<!-- 
+	일반적으로 DB작업을 하다보면 먼저 사전에 어떤 값을 가져와서 해당 값을 증가시킨 후 입력하거나
+	혹은 입력된 후에 증가값을 가져올 필요가 있는 경우가 많이 발생한다.
+	이런 경우 MyBatis에서 제공하는 selectKey 태그를 이용하면 별도의 쿼리 로직을 사용한
+	필요 없이 일관 처리 작업을 할 수 있게 됨.
+		keyProperty 속성은 해당 결과값이 들어갈 DTO객체의 멤버 변수명이 오면 된다.
+		order 속성은 해당 쿼리문의 실행 순서를 의미함. BEFORE라고 하면  insert 쿼리문 이전에
+		selectKey가 실행이 되고 AFTER라고 하면 insert 쿼리문 이후에 
+		selectKey가 실행이 된다.
+	주의사항 : 반드시 멤버변수에 해당하는 setter()외 getter() 메서드가 존재해 야 함.
+ -->
+<mapper namespace="DAO">
+
+<select id="all" resultType="DTO">
+	select *from upload order by upload_no desc
+</select>
+
+<insert id="upload" parameterType="DTO">
+
+<selectKey resultType="int" keyProperty="upload_no" order="BEFORE">
+	select max(upload_no) from upload
+</selectKey>
+	insert into upload values(#{upload_no}+1, #{upload_writer}, #{upload_title}, 
+	#{upload_cont}, #{upload_pwd}, #{upload_file}, default, sysdate, '')
+	
+</insert>
+
+<update id="hit" parameterType="int" >
+	update upload set upload_hit = upload_hit + 1 where upload_no = #{no}
+</update>
+
+<select id="cont" parameterType="int" resultType="DTO">
+	select *from upload where upload_no = #{no}
+</select>
+
+<update id="edit" parameterType="DTO">
+	update upload set upload_title = #{upload_title}, upload_cont = #{upload_cont}, upload_file = #{upload_file},
+									upload_update = sysdate where upload_no = #{upload_no}
+</update>
+
+<update id="count" parameterType="int">
+	update upload set upload_no = upload_no-1 where upload_no > #{no}
+</update>
+
+<delete id="del" parameterType="int">
+	delete from upload where upload_no = #{no}
+</delete>
+ 
+</mapper>
